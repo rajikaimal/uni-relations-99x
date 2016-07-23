@@ -3,9 +3,9 @@ var path = require('path');
 var env = process.env.NODE_ENV || 'development';
 var nodeModulesPath = path.resolve(__dirname, 'node_modules');
 var config = {
-  entry: path.resolve(__dirname, './app.js'),
+  entry: path.resolve(__dirname, './client/app.js'),
   output: {
-    filename: 'bundle.js'
+    filename: 'client/bundle.js'
   },
   module: {
     loaders: [{
@@ -19,7 +19,7 @@ var config = {
       query: {
         presets: ['es2015', 'react']
       }
-    }]
+    },{ test: /\.css$/, loader: 'style-loader!css-loader' },]
   },
   watch: true
 };
