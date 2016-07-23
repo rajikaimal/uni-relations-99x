@@ -1,7 +1,8 @@
 import keyMirror from 'keymirror';
 
 const constants = keyMirror({
-    INCREMENT: null,
+    LOGIN: null,
+    ADD: null
 });
 
 export default constants;
