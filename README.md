@@ -3,8 +3,8 @@
 Uni-relations application
 
 ```
-git clone https://bitbucket.org/99x-intern/uni-relations
-cd uni-relations
+git clone https://github.com/rajikaimal/uni-relations-99x
+cd uni-relations-99x
 npm install
 webpack
 node server/app.js
