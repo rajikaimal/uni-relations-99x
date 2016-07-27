@@ -28,6 +28,7 @@
     "jquery": "^3.1.0",
     "keymirror": "^0.1.1",
     "material-ui": "^0.15.2",
+    "mongoose": "^4.5.6",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-router": "^2.0.0-rc5",
